@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+
+.pokemonInfo{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    align-items: center;
+
+
+}
+.pokeID{
+    display: grid;
+    grid-template-rows: 1fr ;
+}
+.evolutions{
+    text-align: center;
+}
