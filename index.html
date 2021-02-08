@@ -11,34 +11,101 @@
 <body>
 
 <h1>Pokemon</h1>
+<div class="search-container">
+	<label for="name-input"></label><input id="name-input" type="text" placeholder="Name / id" />
 
-<div class="pokemonInfo">
-	<div>
-		<img src="pikachu.png" height="475" width="475" alt="pikachu, pokemon">
-	</div>
-
-	<div class="pokeID">
-
-		<div>
-			<h2>Pikachu ID</h2>
-		</div>
-
-		<div>
-			<h3>Moves</h3>
-			<p>mov1</p>
-			<p>mov2</p>
-			<p>mov3</p>
-			<p>mov4</p>
-		</div>
-
+	<div id="search-btn" class="ball-container">
+		<div class="upper-half-ball"></div>
+		<div class="bottom-half-ball"></div>
+		<div class="center-ball"></div>
+		<div class="center-line"></div>
 	</div>
 </div>
-<div class="evolutions">
-	<h3>Evolutions</h3>
-	<p>Ev1</p>
-	<p>ev2</p>
-	<p>ev3</p>
-</div>
 
+<div id="pokedex">
+	<div id="left">
+
+		<div id="bg_curve1_left"></div>
+		<div id="bg_curve2_left"></div>
+		<div id="curve1_left">
+			<div id="buttonGlass"></div>
+			<div id="miniButtonGlass1"></div>
+			<div id="miniButtonGlass2"></div>
+			<div id="miniButtonGlass3"></div>
+		</div>
+
+		<div id="curve2_left">
+			<div id="junction"></div>
+		</div>
+
+
+		<div id="screen">
+			<div id="picture">
+				<img src="pikachu.png"  alt="pokemon">
+			</div>
+		</div>
+
+
+		<div id="resetButton"></div>
+
+
+		<div id="cross">
+			<div id="leftcross">
+				<div id="leftT"></div>
+			</div>
+			<div id="topcross">
+				<div id="upT"></div>
+			</div>
+			<div id="rightcross">
+				<div id="rightT"></div>
+			</div>
+			<div id="midcross">
+				<div id="midCircle"></div>
+			</div>
+			<div id="botcross">
+				<div id="downT"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="right">
+		<div id="pokeMovements">
+			<div><strong>mov1</strong></div>
+			<div><strong>mov2</strong> </div>
+			<div><strong>mov3</strong></div>
+			<div><strong>mov4</strong> </div>
+
+		</div>
+
+		<div id="Evolutions">
+			<div class="evo1">
+				<img src="pikachu.png" alt="pokemon">
+			</div>
+			<div class="evo2">
+				<img src="pikachu.png" alt="pokemon">
+			</div>
+
+			<div class="evo3">
+				<img src="pikachu.png" alt="pokemon">
+			</div>
+
+		</div>
+
+		<div id="nameBox">
+			<h4>name</h4>
+		</div>
+
+		<div id="IDBox">
+			<h4>ID</h4>
+		</div>
+
+		<div id="bg_curve1_right"></div>
+		<div id="bg_curve2_right"></div>
+		<div id="curve1_right"></div>
+		<div id="curve2_right"></div>
+	</div>
+</div>
+<script src="pokedex.js"></script>
 </body>
 </html>
